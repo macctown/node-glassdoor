@@ -1,29 +1,35 @@
 {
-  "name": "node-shop.com",
+  "name": "node-glassdoor",
   "version": "1.0.0",
   "description": "Node.js module for interacting with Glassdoor's API v1.1",
   "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/macctown/node-glassdoor.git"
+  },
   "keywords": [
-    "Glassdoor",
-    "API",
-    "job information",
-    "company information"
+    "glassdoor",
+    "job",
+    "company",
+    "npm",
+    "nodejs"
   ],
   "author": {
     "name": "macctown",
     "email": "zhangwei.luvcode@gmail.com",
     "url": "http://zhang-wei.me"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/olalonde/node-yelp.git"
-  },
-  "homepage": "https://github.com/macctown/node-glassdoor",
   "license": "MIT",
-  "repository": "macctown/node-glassdoor",
+  "bugs": {
+    "url": "https://github.com/macctown/node-glassdoor/issues"
+  },
+  "homepage": "https://github.com/macctown/node-glassdoor#readme",
   "dependencies": {
     "mocha": "^2.4.5",
     "query-string": "^4.1.0",
