@@ -5,12 +5,12 @@ Node.js module for interacting with Glassdoor's API v1.1
 # Warning
 The code works, but no test case for now, will add it soon. So be careful when you use it.
 
-#Install
+# Install
 ```
 npm install --save node-glassdoor
 ```
 
-#Usage
+# Usage
 ```javascript
 //init
 var Glassdoor = require('node-glassdoor').initGlassdoor({
@@ -49,15 +49,15 @@ Glassdoor.findAllCompanies('google',
     }) 
 ```
 
-#Reference
+# Reference
 - [Company Information](https://www.glassdoor.com/developer/companiesApiActions.htm)
 - [Job Information](https://www.glassdoor.com/developer/jobsApiActions.htm) -- not cover yet
 
-#TODO
+# TODO
 - Add Test Case for current features
 - Make code fancy
 - Add those fancy badges
 - Add Job API
 
-#License
+# License
 [MIT](http://spdx.org/licenses/MIT)
