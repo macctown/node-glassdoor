@@ -20,6 +20,7 @@ var Glassdoor = require('node-glassdoor').initGlassdoor({
 });
 
 //Return the first employer information from list of results
+//Return a employer object or empty object
 Glassdoor.findOneCompany('google', 
 	{
 		state:"CA", 
@@ -36,6 +37,7 @@ Glassdoor.findOneCompany('google',
 //Return the all employers information that match the keyword
 //note: the specific location information (state, city, country) 
 //		only affect the job info inside of each employer info
+//Return a employers object array
 Glassdoor.findAllCompanies('google', 
 	{
 		state:"CA"
@@ -49,8 +51,14 @@ Glassdoor.findAllCompanies('google',
 ```
 
 #Reference
-- [Job Information](https://www.glassdoor.com/developer/jobsApiActions.htm)
 - [Company Information](https://www.glassdoor.com/developer/companiesApiActions.htm)
+- [Job Information](https://www.glassdoor.com/developer/jobsApiActions.htm) -- not cover yet
+
+#TODO
+- Add Test Case for current features
+- Make code fancy
+- Add those fancy badges
+- Add Job API
 
 #License
 [MIT](http://spdx.org/licenses/MIT)
