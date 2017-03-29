@@ -1,6 +1,6 @@
 {
   "name": "node-glassdoor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Node.js module for interacting with Glassdoor's API v1.1",
   "main": "index.js",
   "directories": {
