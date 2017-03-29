@@ -1,10 +1,9 @@
 # node-glassdoor
 Node.js module for interacting with Glassdoor's API v1.1
+powered by ![glassdoor](https://www.glassdoor.com/static/img/api/glassdoor_logo_80.png)
 
-
-# Warning: This is not a completed version! Watch out, it may break things.
-# powered by ![glassdoor](https://www.glassdoor.com/static/img/api/glassdoor_logo_80.png)
-
+# Warning
+The code works, but no test case for now, will add it soon. So be careful when you use it.
 
 #Install
 ```
