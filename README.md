@@ -71,7 +71,6 @@ ID="xxxxx" KEY="xxxxxx" npm test
 - [Job Information](https://www.glassdoor.com/developer/jobsApiActions.htm) -- not cover yet
 
 ### TODO
-- Add Test Case for current features
 - Make code fancy
 - Add those fancy badges
 - Add Job API
