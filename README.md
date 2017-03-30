@@ -1,4 +1,5 @@
 # node-glassdoor
+[![npm version](https://badge.fury.io/js/node-glassdoor.svg)](https://badge.fury.io/js/node-glassdoor)
 Node.js module for interacting with Glassdoor's API v1.1
  ( powered by ![glassdoor](https://www.glassdoor.com/static/img/api/glassdoor_logo_80.png) )
 
@@ -36,7 +37,7 @@ Glassdoor.findOneCompany('google',
     });
 
 
-//Return the all employers information that match the keyword
+//Return all employers information that match the keyword
 //
 //note I: the specific location information (state, city, country) 
 //		only affect the job info inside of each employer info
@@ -57,6 +58,12 @@ Glassdoor.findAllCompanies('google',
     .catch(function (err) {
         console.error(err);
     }) 
+```
+
+### Test
+
+```bash
+ID="" KEY="" npm test
 ```
 
 ### Reference
