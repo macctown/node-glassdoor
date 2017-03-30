@@ -1,6 +1,6 @@
 {
   "name": "node-glassdoor",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Node.js module for interacting with Glassdoor's API v1.1",
   "main": "index.js",
   "directories": {
@@ -31,7 +31,6 @@
   },
   "homepage": "https://github.com/macctown/node-glassdoor#readme",
   "dependencies": {
-    "mocha": "^2.4.5",
     "query-string": "^4.1.0",
     "request": "~2.72.0",
     "async": "^2.2.0"
