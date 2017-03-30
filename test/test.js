@@ -1,7 +1,7 @@
 var assert = require('assert');
 var Glassdoor = require('../lib/').initGlassdoor({
-    partnerId: 47725,
-    partnerKey: "fRoNqdi8N21"
+    partnerId: process.env.ID,
+    partnerKey: process.env.KEY
 });
 
 describe('Find One Company By Keyword and Params', function(){
